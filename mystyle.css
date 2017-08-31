@@ -1,0 +1,153 @@
+*{
+  zoom: 93%;
+}
+table *{
+  padding: 0px;
+}
+table#cal{
+  margin: auto;
+  border-collapse: collapse;
+  border: 3px solid black;
+  font-family: parisienne,cursive;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+table.winter{
+  width:100%;
+  border: 3px solid #000066;
+  border-radius: 10px;
+  font-size:22px;
+  font-family: sofia,cursive;
+  text-align: center;
+  color: #000066;
+}
+table.winter caption{
+  background: linear-gradient(to top, #ffffff 0%, #66ccff 100%);
+  font-family: courgette,cursive;
+  font-size: 42px;
+  font-weight: bolder;
+}
+table.winter colgroup col{
+  background-color: #b3b3ff;
+}
+table.winter th{
+  background: linear-gradient(to bottom, #ffffff 0%, #66ccff 100%);
+}
+table.winter tr:nth-child(odd){
+  background-color: #b3e0ff;
+}
+table.winter td:hover{
+  background-color:#3333ff;
+}
+
+table.spring{
+  width:100%;
+  border: 3px dotted #006600;
+  border-radius: 10px;
+  font-size:22px;
+  font-family: sofia,cursive;
+  text-align: center;
+  color: #006600;
+}
+table.spring caption{
+  background: linear-gradient(to top, #ffffff 0%, #66ff99 100%);
+  font-family: courgette,cursive;
+  font-size: 42px;
+  font-weight: bolder;
+}
+table.spring colgroup col{
+  background-color: #b3ffb3;
+}
+table.spring th{
+  background: linear-gradient(to bottom, #ffffff 0%, #66ff99 100%);
+}
+table.spring tr:nth-child(odd){
+  background-color: #b3ffe0;
+}
+table.spring td:hover{
+  background-color:#33ff33;
+}
+
+table.summer{
+  width:100%;
+  border: 3px dashed #666600;
+  border-radius: 10px;
+  font-size:22px;
+  font-family: sofia,cursive;
+  text-align: center;
+  color: #666600;
+}
+table.summer caption{
+  background: linear-gradient(to top, #ffffff 0%, #ffff66 100%);
+  font-family: courgette,cursive;
+  font-size: 42px;
+  font-weight: bolder;
+}
+table.summer colgroup col{
+  background-color: #ffffb3;
+}
+table.summer th{
+  background: linear-gradient(to bottom, #ffffff 0%, #ffff66 100%);
+}
+table.summer tr:nth-child(odd){
+  background-color: #ffff66;
+}
+table.summer td:hover{
+  background-color:#ffff00;
+}
+
+table.autumn{
+  width:100%;
+  border: 3px double #660000;
+  border-radius: 10px;
+  font-size:22px;
+  font-family: sofia,cursive;
+  text-align: center;
+  color: #660000;
+}
+table.autumn caption{
+  background: linear-gradient(to top, #ffffff 0%, #ff9933 100%);
+  font-family: courgette,cursive;
+  font-size: 42px;
+  font-weight: bolder;
+}
+table.autumn colgroup col{
+  background-color: #ff8533;
+}
+table.autumn th{
+  background: linear-gradient(to bottom, #ffffff 0%, #ff9933 100%);
+}
+table.autumn tr:nth-child(odd){
+  background-color: #ffa366;
+}
+table.autumn td:hover{
+  background-color:#ff9900;
+}
+
+.blu{
+  color: #000066;
+}
+.gre{
+  color: #006600;
+}
+.yel{
+  color: #666600;
+}
+.ora{
+  color: #660000;
+}
+
+table#cal>caption{
+  background-color: #669999;
+  color: white;
+}
+
+.footer{
+  font-size: 25px;
+  font-family: 'bad script',cursive;
+  text-align: center;
+  background-color: #669999;
+  color: white;
+}
